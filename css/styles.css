@@ -19,7 +19,7 @@ img {
 
 section {
     background-color: white;
-    min-height: 600px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,18 +43,14 @@ section p {
  
 }
 
-.dogcard {
-    display: flex;
-    
-}
 
 .card {
     margin: 30px;
-    width: 100px;
+    /* width: 100px; */
 }
 
 .card img {
-    height: 20rem;
+    /* height: 20rem; */
 }
 
 .container-fluid {
@@ -67,5 +63,8 @@ form {
     padding-bottom: 30px;
 }
 
+.dogcard {
+    padding-bottom: 30px;
+}
 
 
